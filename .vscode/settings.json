@@ -11,5 +11,6 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "explorerExclude.backup": null
+  "explorerExclude.backup": null,
+  "cSpell.ignoreWords": ["uuidv"]
 }
