@@ -3,7 +3,7 @@ import "./s.ExpenseForm.scss";
 import { v4 as uuid } from "uuid";
 
 //* this component is used in (NewExpense.jsx)
-function ExpenseForm({ onSaveExpenseData }) {
+function ExpenseForm({ onSaveExpenseData, onClose }) {
   const initialUserInput = {
     enteredTitle: "",
     enteredAmount: "",
@@ -45,14 +45,16 @@ function ExpenseForm({ onSaveExpenseData }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} action="">
+    <form onSubmit={handleSubmit} className="form" action="">
+      <div onClick={onClose} className="form__close">
+        &#10006;
+      </div>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label htmlFor="">Title</label>
           <input
             type="text"
             name="enteredTitle"
-            id=""
             onChange={handleChange}
             value={userInput.enteredTitle}
           />

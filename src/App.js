@@ -1,11 +1,17 @@
 import "./App.css";
-import ExpenseItem from "./components/expenseItem/c.ExpenseItem";
 import ExpensePage from "./pages/expensePage/c.ExpensePage";
 
 function App() {
-  
   return (
     <div className="App">
+      <div className="header">
+        <h1>Expense.</h1>
+        <p>
+          Expenditure is an outflow of money, or any form of fortune in general,
+          to another person or group as payment for an item, service, or other
+          category of costs.
+        </p>
+      </div>
       <ExpensePage />
     </div>
   );

@@ -4,7 +4,7 @@ import ExpenseChart from "../../components/ExpenseChart/c.ExpenseChart";
 import ExpenseFilter from "../../components/expenseFilter/c.ExpenseFilter";
 import ExpenseItem from "../../components/expenseItem/c.ExpenseItem";
 import NewExpense from "../../components/newExpense/c.NewExpense";
-import { v4 as uuid } from 'uuid';
+import { v4 as uuid } from "uuid";
 import "./s.expensePage.scss";
 
 function ExpensePage() {
