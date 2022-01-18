@@ -13,6 +13,7 @@ function App() {
         </p>
       </div>
       <ExpensePage />
+      <footer>&copy; Copyright 2022, Developed by: Bahoz_Ali </footer>
     </div>
   );
 }

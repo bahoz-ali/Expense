@@ -19,3 +19,12 @@ body {
 .header p{
   color: brown;
 }
+
+
+footer{
+  background-color: #123456;
+  padding: 10px 4px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.616);
+  
+}
